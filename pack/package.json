@@ -1,0 +1,29 @@
+{
+  "name": "beautify-json-cli",
+  "version": "1.0.0",
+  "description": "Beautify JSON file.",
+  "readme": "README.md",
+  "main": "",
+  "files": [
+    "bin/",
+    ".bin/",
+    "test.json"
+  ],
+  "scripts": {
+    "test": "beautify-json test.json",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emako/beautify-json-cli.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "ema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emako/beautify-json-cli/issues"
+  },
+  "homepage": "https://github.com/emako/beautify-json-cli#readme"
+}

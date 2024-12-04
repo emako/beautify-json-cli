@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifyJson", "BeautifyJson\BeautifyJson.csproj", "{704F0DC5-E443-4122-A47F-70D65E520915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifyJsonFx", "BeautifyJsonFx\BeautifyJsonFx.csproj", "{906EDA96-E410-4347-9075-A5F0063CE3CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{704F0DC5-E443-4122-A47F-70D65E520915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704F0DC5-E443-4122-A47F-70D65E520915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704F0DC5-E443-4122-A47F-70D65E520915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704F0DC5-E443-4122-A47F-70D65E520915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906EDA96-E410-4347-9075-A5F0063CE3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906EDA96-E410-4347-9075-A5F0063CE3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906EDA96-E410-4347-9075-A5F0063CE3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906EDA96-E410-4347-9075-A5F0063CE3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
