@@ -4,11 +4,11 @@ setlocal
 set "ARCH=%PROCESSOR_ARCHITECTURE%"
 
 if "%ARCH%"=="AMD64" (
-  set "DIR=..\beautify-json-cli\bin\win-x64"
+  set "DIR=%~dp0..\beautify-json-cli\bin\win-x64"
 ) else if "%ARCH%"=="ARM64" (
-  set "DIR=..\beautify-json-cli\bin\win-arm64"
+  set "DIR=%~dp0..\beautify-json-cli\bin\win-arm64"
 ) else if "%ARCH%"=="x86" (
-  set "DIR=..\beautify-json-cli\bin\win-x86"
+  set "DIR=%~dp0..\beautify-json-cli\bin\win-x86"
 ) else (
   echo Unsupported architecture: %ARCH%
   exit /b 1

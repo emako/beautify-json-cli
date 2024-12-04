@@ -8,7 +8,7 @@ function copyFile(source, destination) {
 }
 
 const binDir = path.join(__dirname, "../.bin");
-const targetBinDir = path.join(__dirname, "../node_modules/.bin");
+const targetBinDir = path.join(__dirname, "../../.bin");
 
 try {
   copyFile(path.join(binDir, "beautify-json.cmd"), path.join(targetBinDir, "beautify-json.cmd"));

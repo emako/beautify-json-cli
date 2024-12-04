@@ -1,18 +1,21 @@
 #!/bin/bash
 
+# Get the directory of the current script
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+
 ARCH=$(uname -m)
 
 if [[ "$ARCH" == "x86_64" ]]; then
   if [[ "$(uname)" == "Linux" ]]; then
-    DIR="../beautify-json-cli/bin/linux-x64"
+    DIR="$SCRIPT_DIR/../beautify-json-cli/bin/linux-x64"
   elif [[ "$(uname)" == "Darwin" ]]; then
-    DIR="../beautify-json-cli/bin/osx-x64"
+    DIR="$SCRIPT_DIR/../beautify-json-cli/bin/osx-x64"
   fi
 elif [[ "$ARCH" == "aarch64" ]]; then
   if [[ "$(uname)" == "Linux" ]]; then
-    DIR="../beautify-json-cli/bin/linux-arm64"
+    DIR="$SCRIPT_DIR/../beautify-json-cli/bin/linux-arm64"
   elif [[ "$(uname)" == "Darwin" ]]; then
-    DIR="../beautify-json-cli/bin/osx-arm64"
+    DIR="$SCRIPT_DIR/../beautify-json-cli/bin/osx-arm64"
   fi
 else
   echo "Unsupported architecture: $ARCH"
