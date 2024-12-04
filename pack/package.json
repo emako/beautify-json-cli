@@ -1,12 +1,13 @@
 {
   "name": "beautify-json-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beautify JSON file.",
   "readme": "README.md",
   "main": "",
   "files": [
     "bin/",
     ".bin/",
+    "scripts/",
     "test.json"
   ],
   "scripts": {
